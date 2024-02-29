@@ -1,0 +1,25 @@
+body {
+  background-color: black;
+  color: #f8f8f8;
+  font-family: Inter;
+  width: 1250px;
+  height: 970px;
+  top: 100px;
+  left: 100px;
+}
+
+ul {
+  list-style: none;
+}
+
+.footer-menu {
+  margin-top: 50px;
+  border-top: 1px solid rgba(128, 128, 128, 0.35);
+  font-family: Inter;
+  height: 50px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+}

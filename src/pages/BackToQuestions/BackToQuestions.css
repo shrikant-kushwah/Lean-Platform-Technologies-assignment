@@ -1,0 +1,66 @@
+.backToQuestions {
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 38px;
+  text-align: left;
+  cursor: pointer;
+}
+.answers{
+  font-family: Inter;
+font-size: 24px;
+font-weight: 700;
+height: 70px;
+letter-spacing: 0em;
+text-align: left;
+display: flex;
+justify-content: space-around;
+}
+.sort-by{
+  font-family: Inter;
+font-size: 18px;
+font-weight: 500;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+display: flex;
+}
+.sortBy-text{
+  font-size: 18px;
+  width: 69px;
+  font-weight: 400;
+  margin-top: 30px;
+  margin-right: -15px;
+}
+
+.button1{
+  display: flex;
+  width: 70px;
+  height: 32px;
+  border-radius: 6px;
+  border: 1px solid black;
+  margin-left: 50px;
+  font-weight: 600;
+  letter-spacing: 0em;
+  text-align: left;
+  color: gray;
+  padding: 25px 2px 25px  2px;
+  text-align: center;
+}
+.arrow-button{
+  font-family: Inter;
+font-size: 18px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+text-align: center;
+margin-left: -30px;
+border-radius: 6px;
+border: 1px solid black;
+cursor: pointer;
+}
+

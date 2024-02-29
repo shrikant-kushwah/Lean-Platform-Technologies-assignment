@@ -1,0 +1,149 @@
+.navbar {
+  background-color: black;
+  color: white;
+  padding: 10px 0 10px 0;
+  display: flex;
+  justify-content: space-between;
+  font-family: Inter;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.35);
+  box-shadow: 0px 4px 4px 0px #ffffff40;
+  margin-right: -10px;
+}
+.navbar div {
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  margin-left: 20px;
+  flex: 2;
+}
+
+.nav-links {
+  margin-right: 20px;
+}
+.learn{
+  display: flex;
+  align-items: center;
+}
+
+.nav-links p {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  text-align: left;
+  border: 4px solid black;
+  color: #FEFEFE80;
+}
+.down-arrow-learn{
+  margin-left: -15px;
+  margin-top: 5px;
+  color: gray;
+}
+
+#product {
+  background-color: white;
+  color: black;
+}
+
+.comp-name {
+  font-family: Montserrat;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 15px;
+  letter-spacing: 2.049896001815796px;
+  text-align: center;
+}
+.user-image{
+  margin-right: 30px;
+}
+.user-image,
+.login-dropdown {
+  cursor: pointer;
+  background-size: cover;
+}
+
+.login-dropdown {
+  position: absolute;
+  top: 60px;
+  right: 0;
+  background-color: black;
+  color: #f8f8f8;
+  border: 1px solid #f8f8f8;
+  border-radius: 5px;
+  width: 120px;
+}
+
+.prac-dropdown.active,
+.learn-dropdown.active,
+.login-dropdown.active {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+  transition: 200ms ease;
+}
+
+.prac-dropdown.inactive,
+.learn-dropdown.inactive,
+.login-dropdown.inactive {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-20px);
+  transition: 200ms ease;
+}
+.down-arrow-practice{
+  margin-left: -15px;
+  margin-top: 5px;
+  color: gray;
+}
+
+.learn-dropdown {
+  position: absolute;
+  top: 70px;
+  right: 200px;
+  border: 1px solid #f8f8f8;
+  background-color: black;
+  color: #f8f8f8;
+  border-radius: 5px;
+  width: 220px;
+}
+
+.learn-dropdown a {
+  color: #f8f8f8;
+  text-decoration: none;
+}
+
+.learn-dropdown li {
+  margin-bottom: 5px;
+}
+
+.prac-dropdown {
+  position: absolute;
+  top: 70px;
+  right: 70px;
+  border: 1px solid #f8f8f8;
+  background-color: black;
+  color: #f8f8f8;
+  border-radius: 5px;
+  width: 150px;
+}
+
+.prac-dropdown a {
+  color: #f8f8f8;
+  text-decoration: none;
+}
+
+.prac-dropdown li {
+  margin-bottom: 5px;
+}
+
+@media screen and (max-width: 600px) {
+  .nav-links p {
+    display: none;
+  }
+
+  .comp-name {
+    font-size: 10px;
+  }
+}
